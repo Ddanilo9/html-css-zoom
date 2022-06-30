@@ -32,6 +32,7 @@ img{
     border: 1px solid red;
     height: calc(100vh - 80px);
     padding: 80px 80px 30px;
+    background-color: black;
 }
 
 .container-menu{
@@ -44,6 +45,8 @@ img{
 
 .wrapper-cams{
     padding: 4px 4px 7px;
+    position: relative;
+    color: white;
 }
 
 .buttons-up{
@@ -63,3 +66,13 @@ img{
     border-radius: 5px;
     padding: 5px;
 }
+
+.mute{
+    position: absolute;
+    left: 5px;
+    bottom: 11px;
+    padding: 3px;
+    background-color: rgba(81, 91, 110, 0.5);
+}
+
+/* second section */
