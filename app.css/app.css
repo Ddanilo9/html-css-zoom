@@ -22,11 +22,14 @@ img{
     display: flex;
     flex-wrap: wrap;
 }
-/* main-section */
 
-/* section{
-    position: relative;
-} */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main-section */
 
 .container-grid{
     border: 1px solid red;
@@ -35,9 +38,6 @@ img{
     background-color: black;
 }
 
-.container-menu{
-    border: 1px solid red;
-}
 
 .col{
     flex-basis: calc(100%/7);
@@ -76,3 +76,27 @@ img{
 }
 
 /* second section */
+
+.container-menu{
+    border: 1px solid red;
+    background-color: rgb(34, 34, 34);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containers-buttons-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.end-meeting{
+    color: red;
+    background-color: rgb(74, 74, 74);
+    height: 100%;
+    padding: 0 20px;
+}
